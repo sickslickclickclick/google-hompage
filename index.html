@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<style>
+html{
+    appearance: none;
+    -webkit-appearance: none;
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:500px;
+}
+#search-bar{
+    border-radius: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#submit{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: black;
+    color: white;
+    overflow: hidden;
+}
+
+a{
+    display: block;
+    padding: 8px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+
+li a:hover{
+    background-color: yellow;
+    color: blue;
+}
+li{
+    float: inline-start;
+    border-right: 1px solid #bbb;
+}
+#submit{
+    text-align: center;
+  
+}
+
+#top{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    width:100%;
+
+}
+
+#bottom{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+</style>
+
+<html>
+<header>
+    <ul id = "top">
+        <li><a href="">About</a></li>
+        <li><a href="">Store</a></li>
+        <li><a href="">Gmail</a></li>
+        <li><a href="">Images</a></li>
+    </ul>
+</header>
+<br>
+<br>
+<body>
+
+<img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo">
+<br>
+<form id = "search-bar">
+    <input id = "search-bar" type ="search">
+<br>
+<br>
+    <button id = "submit" type = "submit">Submit</button>
+
+</form>
+
+
+</body>
+
+
+<footer>
+<ul id = "bottom">
+    <li><a href="">Advertising</a></li>
+    <li><a href="">Business</a></li>
+    <li><a href="">How Search Works</a></li>
+</ul>
+</footer>
+
+
+</html>
